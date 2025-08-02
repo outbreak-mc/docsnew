@@ -8,17 +8,13 @@
 
 <div class="modlist">
   <div>
-    <img alt="Emotecraft" src="../../assets/modpack/logos/emotecraft.webp" />
+    <img alt="Emotecraft Logo" src="https://cdn.modrinth.com/data/pZ2wrerK/eed7e2c9851392e5879c7d7cb763f142f124e6d2_96.webp" />
     <p><strong>Emotecraft</strong> - позволяет использовать различные анимации вашего персонажа и видеть анимации других игроков на серверах, где это поддерживается. В сборку уже включено множество эмоций из <a target="_blank" href="https://docs.google.com/document/d/1AK0w8M1_oZ3Z3VxoETT4QJ-OjVsP1AzqE0kHhSazymQ">SPEMOTES</a> и других открытых источников.</p>
   </div>
   <div>
-    <img alt="Replay Mod" src="../../assets/modpack/logos/replaymod.webp" />
-    <p><strong>Replay Mod</strong> - мод, позволяющий записывать повторы геймплея с возможностью настройки камеры и рендеринга видео.</p>
-  </div>
-  <div>
     <div class="icon-stack">
-      <img alt="Sodium" src="../../assets/modpack/logos/sodium.webp" />
-      <img alt="Iris" src="../../assets/modpack/logos/iris.webp" />
+      <img alt="Sodium Logo" src="https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp" />
+      <img alt="Iris Logo" src="https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp" />
     </div>
     <p><strong>Sodium</strong>, <strong>Iris</strong> и множество других модов, вносящих оптимизации в код игры и реализующих все фишки из OptiFine, такие как зум, поддержка шейдеров и соединяющиеся текстуры.</p>
   </div>
@@ -78,25 +74,25 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/aesthetics/staytrue/2023-12-15_15.03.44.png">
+            <img alt="Скриншот" src="/assets/modpack/aesthetics/staytrue/2023-12-15_15.03.44.png">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/aesthetics/staytrue/2023-12-20_02.31.45.png">
+            <img alt="Скриншот" src="/assets/modpack/aesthetics/staytrue/2023-12-20_02.31.45.png">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/aesthetics/staytrue/2023-12-20_02.33.20.png">
+            <img alt="Скриншот" src="/assets/modpack/aesthetics/staytrue/2023-12-20_02.33.20.png">
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/aesthetics/staytrue/2023-12-20_02.36.19.png">
+            <img alt="Скриншот" src="/assets/modpack/aesthetics/staytrue/2023-12-20_02.36.19.png">
         </div>
     </label>
 </div>
@@ -104,7 +100,7 @@
 Ресурспак Os' Shulkers добавляет красивые узоры на шалкеры.
 
 <div class="captioned">
-    <img alt="Шалкеры" src="../../assets/modpack/aesthetics/shulkers.webp" />
+    <img alt="Шалкеры" src="/assets/modpack/aesthetics/shulkers.webp" />
     <p>Циановый - мой абсолютный фаворит</p>
 </div>
 
@@ -115,7 +111,7 @@
         <input type="checkbox">
         <div>
           <div class="captioned">
-              <img alt="Шалкеры" src="../../assets/modpack/aesthetics/ghast1.webp" />
+              <img alt="Шалкеры" src="/assets/modpack/aesthetics/ghast1.webp" />
               <p>UwU</p>
           </div>
         </div>
@@ -124,7 +120,7 @@
         <input type="checkbox">
         <div>
           <div class="captioned">
-              <img alt="Шалкеры" src="../../assets/modpack/aesthetics/ghast2.webp" />
+              <img alt="Шалкеры" src="/assets/modpack/aesthetics/ghast2.webp" />
               <p>OwO</p>
           </div>
         </div>
@@ -135,7 +131,7 @@
       <input type="checkbox">
       <div>
         <div class="captioned">
-            <img alt="Шалкеры" src="../../assets/modpack/aesthetics/pumpkins.webp" />
+            <img alt="Шалкеры" src="/assets/modpack/aesthetics/pumpkins.webp" />
             <p>😍</p>
         </div>
       </div>
@@ -148,20 +144,20 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/aesthetics/ladders.webp" />
+            <img alt="Скриншот" src="/assets/modpack/aesthetics/ladders.webp" />
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/aesthetics/pond.webp" />
+            <img alt="Скриншот" src="/assets/modpack/aesthetics/pond.webp" />
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
             <div class="captioned">
-                <img alt="Скриншот" src="../../assets/modpack/aesthetics/glow_lichen.webp" />
+                <img alt="Скриншот" src="/assets/modpack/aesthetics/glow_lichen.webp" />
                 <p>Лишайник, каким он должен быть</p>
             </div>
         </div>
@@ -169,7 +165,7 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/aesthetics/cauldrons.webp" />
+            <img alt="Скриншот" src="/assets/modpack/aesthetics/cauldrons.webp" />
         </div>
     </label>
 </div>
@@ -181,7 +177,7 @@
     Мод [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement) изменяет визуальные эффекты взрывов на более эпичные и стилизованные
 
     <div class="captioned">
-        <img alt="rimgro эпично десантируется в воронку" src="../../assets/modpack/aesthetics/epic.webp" />
+        <img alt="rimgro эпично десантируется в воронку" src="/assets/modpack/aesthetics/epic.webp" />
         <p>В последней версии взрывы светятся ✨</p>
     </div>
 
@@ -201,7 +197,7 @@
 Теперь еда анимирована, а также у игроков есть анимация руки, когда они едят еду.
 
 <div class="captioned">
-    <img alt="Анимация еды" src="../../assets/modpack/gameplay/eat-sticked.webp" />
+    <img alt="Анимация еды" src="/assets/modpack/gameplay/eat-sticked.webp" />
     <p>До создания этой сборки я и не знал, что в майнкрафте всё настолько плохо, что другие игроки даже не видят анимацию руки.</p>
 </div>
 
@@ -259,7 +255,7 @@
         <input type="checkbox">
         <div>
           <div class="captioned">
-              <img alt="前" src="../../assets/modpack/chat/jp-mae.webp" />
+              <img alt="前" src="/assets/modpack/chat/jp-mae.webp" />
               <p>前 (до)</p>
           </div>
         </div>
@@ -268,7 +264,7 @@
         <input type="checkbox">
         <div>
           <div class="captioned">
-              <img alt="後" src="../../assets/modpack/chat/jp-go.webp" />
+              <img alt="後" src="/assets/modpack/chat/jp-go.webp" />
               <p>後 (после)</p>
           </div>
         </div>
@@ -284,8 +280,8 @@
 Просматривать шалкеры теперь можно в инвентаре, не заходя в них, а интерфейс открытого шалкера зависит от его цвета!
 
 <p class="pics-gallery-1">
-  <img alt="Просмотр шалкера" src="../../assets/modpack/gameplay/shulker1.webp">
-  <img alt="Интерфейс шалкера" src="../../assets/modpack/gameplay/shulker2.webp">
+  <img alt="Просмотр шалкера" src="/assets/modpack/gameplay/shulker1.webp">
+  <img alt="Интерфейс шалкера" src="/assets/modpack/gameplay/shulker2.webp">
 </p>
 
 
@@ -294,8 +290,8 @@
 Раньше у вас могли быть права на смену режима игры на сервере, но клиент не давал использовать быстрое меню на ++f3+f4++ без прав оператора (`/op`). Также без прав оператора не работала вкладка со светом, командным блоком и палочкой отладки в креативе. Моды [Switcher](https://modrinth.com/mod/switcher) и [Show Operator Tab](https://modrinth.com/mod/show-operator-tab) решают эти недоразумения. 
 
 <p class="pics-gallery-1">
-  <img alt="Меню F3+F4" src="../../assets/modpack/gameplay/f3f4.webp">
-  <img alt="Вкладка оператора" src="../../assets/modpack/gameplay/oputils.webp">
+  <img alt="Меню F3+F4" src="/assets/modpack/gameplay/f3f4.webp">
+  <img alt="Вкладка оператора" src="/assets/modpack/gameplay/oputils.webp">
 </p>
 
 ### Скриншоты в буфер обмена
@@ -319,20 +315,20 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/gameplay/xalispotion1.webp" />
+            <img alt="Скриншот" src="/assets/modpack/gameplay/xalispotion1.webp" />
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/gameplay/xalispotion2.webp" />
+            <img alt="Скриншот" src="/assets/modpack/gameplay/xalispotion2.webp" />
         </div>
     </label>
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
           <div class="captioned">
-              <img alt="Схема зельеварения" src="../../assets/modpack/gameplay/brewing-guide.webp" />
+              <img alt="Схема зельеварения" src="/assets/modpack/gameplay/brewing-guide.webp" />
               <p>Признайся гуглил 🥺</p>
           </div>
         </div>
@@ -340,7 +336,7 @@
     <label class="zoomableimg">
         <input type="checkbox">
         <div>
-            <img alt="Скриншот" src="../../assets/modpack/gameplay/books-crop.png" />
+            <img alt="Скриншот" src="/assets/modpack/gameplay/books-crop.png" />
         </div>
     </label>
 </div>
@@ -351,7 +347,7 @@
 Иконки брони теперь зависят от того, что на вас надето.
 
 <div class="pics-gallery-1">
-  <img alt="Индикатор брони" src="../../assets/modpack/gameplay/armor-indicator.webp" />
+  <img alt="Индикатор брони" src="/assets/modpack/gameplay/armor-indicator.webp" />
 </div>
 
 
@@ -361,19 +357,19 @@
 
 <div class="pics-gallery-1">
   <div class="captioned">
-      <img alt="Визуализация еды" src="../../assets/modpack/gameplay/appleskin-0.webp" />
+      <img alt="Визуализация еды" src="/assets/modpack/gameplay/appleskin-0.webp" />
       <p>Эффекты и насыщение от еды в описаниях</p>
   </div>
   <div class="captioned">
-      <img alt="Текущее насыщение" src="../../assets/modpack/gameplay/appleskin-1.webp" />
+      <img alt="Текущее насыщение" src="/assets/modpack/gameplay/appleskin-1.webp" />
       <p>Текущее насыщение</p>
   </div>
   <div class="captioned">
-      <img alt="Визуализация еды" src="../../assets/modpack/gameplay/appleskin-2.webp" />
+      <img alt="Визуализация еды" src="/assets/modpack/gameplay/appleskin-2.webp" />
       <p>Сколько голода и насыщения может восполнить еда (при удерживании еды)</p>
   </div>
   <div class="captioned">
-      <img alt="Визуализация еды" src="../../assets/modpack/gameplay/appleskin-3.webp" />
+      <img alt="Визуализация еды" src="/assets/modpack/gameplay/appleskin-3.webp" />
       <p>Потенциальное восстановление здоровья (при удерживании еды)</p>
   </div>
 </div>
@@ -385,7 +381,7 @@
 Панель скрывается и показывается клавишей ++h++.
 
 <p class="pics-gallery-1">
-  <img alt="MiniHUD" src="../../assets/modpack/gameplay/minihud.webp">
+  <img alt="MiniHUD" src="/assets/modpack/gameplay/minihud.webp">
 </p>
 
 ### Улучшенный F3
@@ -400,13 +396,13 @@
 Мод [Ugly Scoreboard Fix](https://modrinth.com/mod/ugly-scoreboard-fix) убирает из скорбордов красные цифры справа, являющиеся побочным эффектом, без которого нельзя создать скорборд.
 
 <p class="pics-gallery-1">
-  <img alt="Скриншот скорборда" src="../../assets/modpack/gameplay/scoreboard.webp">
+  <img alt="Скриншот скорборда" src="/assets/modpack/gameplay/scoreboard.webp">
 </p>
 
 ### Ходьба с открытым GUI
 
 <div class="captioned">
-    <img alt="Ходьба с открытым GUI" src="../../assets/modpack/gameplay/InvMove.webp" />
+    <img alt="Ходьба с открытым GUI" src="/assets/modpack/gameplay/InvMove.webp" />
     <p>Некоторые считают это читом, но мы не против</p>
 </div>
 
