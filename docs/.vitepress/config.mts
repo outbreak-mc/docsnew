@@ -5,7 +5,7 @@ import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 export default defineConfig({
   title: "OUTBREAK",
   description: "",
-  base: "/docsnew/",
+  // base: "/docsnew/",
   themeConfig: {
     logo: "/assets/site/logo_128.png",
 
