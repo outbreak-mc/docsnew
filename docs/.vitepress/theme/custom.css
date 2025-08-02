@@ -1,0 +1,138 @@
+.pics-gallery-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 1em;
+}
+
+.pics-gallery-1>* {
+  max-width: 50% !important;
+}
+
+/* .vp-doc h3 {
+  margin-top: 16px;
+}
+
+.vp-doc ul {
+  margin-top: 8px;
+} */
+
+.vp-doc ul li p {
+  margin: 8px 0;
+  line-height: 26px;
+}
+
+
+.vp-doc ul li {
+  margin-top: 0 !important;
+}
+
+
+.vp-doc sub {
+  opacity: 70%;
+}
+
+.spoiler-toggler {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.25s, opacity 0.25s;
+}
+.spoiler-toggler:hover {
+  color: var(--vp-c-brand-2);
+}
+
+.spoiler-toggler input {
+  display: none;
+}
+
+.spoiler-toggler input:not(:checked) ~ img {
+  display: none;
+}
+
+.spoiler-toggler input:not(:checked) ~ span:nth-child(1) {
+  display: none;
+}
+.spoiler-toggler input:not(:checked) ~ span:nth-child(3) {
+  display: none;
+}
+
+.spoiler-toggler input:checked ~ span:nth-child(2) {
+  display: none;
+}
+
+@media (min-width: 1280px) {
+  .VPDoc:not(.has-sidebar) > .container {
+    display: grid !important;
+    justify-items: center;
+    grid-template-columns: 
+      [spacer] 256px 
+      [main] 1fr 
+      [toc] 256px;
+
+    max-width: 100% !important;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: 900px !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPDoc:not(.has-sidebar) .content[data-v-10119189] {
+    max-width: 900px;
+  }
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: max-content !important;
+}
+
+div.content {
+  grid-column: main;
+}
+
+div.aside {
+  grid-column: toc;
+}
+
+.mcfont {
+  font-family: 'Minecraft Rus', 'Minecraft';
+}
+
+.serenity-gradient {
+    background: -webkit-linear-gradient(45deg, #616bff, #d763ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .VPButton.serenity{
+  background-color: #9243c8;
+} */
+
+
+/* 
+div.content {
+    padding-left: 256px;
+} */
+
+kbd {
+  background-color: #e2e4e91f;
+  border-radius: .4rem;
+  box-shadow: 0 .1rem 0 .05rem #1e2129,0 .1rem 0 #1e2129,0 -.1rem .2rem #e2e4e933 inset;
+  display: inline-block;
+  font-size: .75em;
+  padding: 0 .6666666667em;
+  vertical-align: text-top;
+  word-break: break-word;
+  line-height: normal;
+  padding: 0.3rem 0.6rem;
+  margin: 0 0.1rem;
+  vertical-align: middle;
+}

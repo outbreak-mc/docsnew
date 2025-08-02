@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+:root {
+  --disabled-color: #8d8d8d;
+  --brand-orange: #f6895a;
+  --brand-orange-pale: #e6794a;
+  --brand-orange-pale-activated: #fa8e5f;
+  --brand-orange-activated: #f6ad5a;
+  --brand-yellow: #fff16b;
+  --brand-gradient: linear-gradient(
+    90deg,
+    var(--brand-orange) 50%,
+    var(--brand-yellow) 100%
+  );
+
+  --md-primary-fg-color: #18181c;
+  --md-typeset-a-color: #fff;
+
+  --mod-icon-size: 45px;
+}
+
+.cool-outbreak-font {
+  font-family: "Press Start 2P", sans-serif;
+  background: linear-gradient(180deg, #fff 0%, rgb(192, 192, 192) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.grid.cards li,
+.glass {
+  background: radial-gradient(
+    181.7% 95.57% at 31.05% 66.18%,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  box-shadow: 0 25px 45px rgb(0 0 0 / 10%);
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-right: 1px solid rgb(255 255 255 / 5%);
+  border-bottom: 1px solid rgb(255 255 255 / 5%);
+  backdrop-filter: blur(15px);
+  border-radius: 10px !important;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+div.md-header__title:not(.md-header__title--active) * {
+  font-family: "BIOWEAPON", var(--md-text-font-family);
+}
+
+.md-typeset h2 {
+  font-weight: 400;
+}
+
+.md-typeset h3 {
+  font-weight: 300;
+}
+
+.md-header--shadow {
+  box-shadow: none;
+}
+
+.md-tabs {
+  /* backdrop-filter: blur(5px); */
+  background-color: #18181c00;
+}
+
+.md-content img,
+.md-content video {
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+.md-content h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.md-content h3 img {
+  max-width: 250px;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #62abffde;
+  --md-accent-fg-color: #fb925f;
+}
+
+.pics-gallery-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 1em;
+}
+
+.pics-gallery-1 > * {
+  max-width: 50% !important;
+}
+
+.captioned {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: contents; */
+}
+
+.captioned img {
+  margin-bottom: 2px;
+  max-width: 100%;
+}
+
+.captioned p,
+.captioned a {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 0;
+}
+
+.captioned p {
+  color: var(--md-default-fg-color--light);
+}
+
+.icon-gallery {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1em;
+}
+
+.modlist {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.modlist > div {
+  display: grid;
+  grid-template-columns: 91px 1fr;
+  gap: 10px;
+}
+
+.modlist img,
+.icon-gallery img,
+.icon-stack img {
+  border-radius: 1rem;
+  justify-self: center;
+  width: var(--mod-icon-size);
+  height: var(--mod-icon-size);
+  min-width: var(--mod-icon-size);
+  min-height: var(--mod-icon-size);
+}
+
+.modlist p {
+  margin: 0;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-stack {
+  display: flex;
+}
+
+.icon-stack img:not(:first-child) {
+  margin-left: calc((var(--mod-icon-size) / 1.8) * -1);
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes blurin {
+  0% {
+    backdrop-filter: blur(0px);
+  }
+
+  100% {
+    backdrop-filter: blur(40px);
+  }
+}
+
+.zoomableimg input:not(:checked) + div {
+  cursor: zoom-in;
+}
+
+.zoomableimg input:checked + div {
+  cursor: zoom-out;
+}
+
+.zoomableimg img {
+  margin: 0;
+}
+
+.zoomableimg input {
+  display: none;
+}
+
+.zoomableimg input:checked + div {
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  /* transform: translateX(50%) translateY(50%); */
+  backdrop-filter: blur(40px);
+  background-color: #18181c2f;
+  top: 0;
+  left: 0;
+  animation: blurin 0.1s forwards ease-in;
+}
+
+.zoomableimg input:checked + div img {
+  animation: zoomin 0.1s forwards ease-in;
+}
+
+.footer-img {
+  z-index: -1;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: -1vh;
+}

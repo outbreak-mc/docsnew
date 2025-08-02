@@ -1,0 +1,57 @@
+{
+    "files.exclude": {
+        ".idea": true,
+        // // Python
+        "**/__pycache__": true,
+        "**/.venv": true,
+        // "poetry.lock": true,
+        // // JavaScript
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        // "**/package.json": true,
+        // // Vue.js / Vite
+        // "**/jsconfig.json": true,
+        // "**/babel.config.js": true,
+        // "**/.browserslistrc": true,
+        // "**/.eslintrc.js": true,
+        // // "**/vite.config.ts": true,
+        // // TypeScript
+        // "**/env.d.ts": true,
+        // "**/tsconfig.config.json": true,
+        // "**/tsconfig.json": true,
+        // "build": true,
+        // ".svelte-kit": true,
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.rulers": [
+        101
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length=101"
+    ],
+    "[python][json][javascript][typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[html][vue][scss][css][typescript][svelte]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "i18n-ally.localesPaths": [
+        "src/lib/i18n",
+        "src/lib/i18n/locales"
+    ],
+    // "typescript.inlayHints.parameterNames.enabled": "literals",
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "i18n-ally.keystyle": "nested"
+}

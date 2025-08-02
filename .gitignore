@@ -1,0 +1,3 @@
+docs/.vitepress/cache
+docs/posts/
+node_modules
