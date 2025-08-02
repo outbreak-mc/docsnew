@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Сервер, о вайпе на котором слагают легенды
   image:
-    src: /assets/site/feelingrad.png
+    src: /assets/site/index/feelingrad.webp
   actions:
     - theme: brand
       text: Ванильная QoL-сборка
