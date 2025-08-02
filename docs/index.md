@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: Сервер, о вайпе на котором слагают легенды
   image:
-    src: /assets/site/index/feelingrad.webp
+    src: /public/feelingrad.webp
   actions:
     - theme: brand
       text: Ванильная QoL-сборка
@@ -69,7 +69,7 @@ hero:
 
 ### Прочие нововведения и улучшения
 
-- **<img src="/assets/site/logo_128.png" style="display: inline; vertical-align:middle;" width=32/> Возвращение серверного ресурспака**  
+- **<img src="/public/logo_128.png" style="display: inline; vertical-align:middle;" width=32/> Возвращение серверного ресурспака**  
     Сервер теперь предлагает использовать ресурспак при подключении, чтобы видеть шапки и прочие кастомные текстуры. Вы можете [скачать](https://rp.outbreak.space) его себе на клиент, чтобы избежать загрузки каждый раз.
 
 - **<img src="/assets/icons/newsboy_cap_denim.png" style="display: inline; vertical-align:middle;" width=32/> Шапки снова здесь! Теперь - с крафтами!**  

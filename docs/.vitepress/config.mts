@@ -7,7 +7,7 @@ export default defineConfig({
   description: "",
   // base: "/docsnew/",
   themeConfig: {
-    logo: "/assets/site/logo_128.png",
+    logo: "/public/logo_128.png",
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
