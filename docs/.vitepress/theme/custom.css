@@ -136,3 +136,7 @@ kbd {
   margin: 0 0.1rem;
   vertical-align: middle;
 }
+
+sub {
+    vertical-align: top;
+}
