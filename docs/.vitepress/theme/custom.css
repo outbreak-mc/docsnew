@@ -134,6 +134,12 @@ div.aside {
   }
 }
 
+.VPFeatures .VPImage, .VPFeatures h2 {
+  display: inline !important;
+}
+.VPFeatures h2{
+  width: auto !important;
+}
 
 /* .VPButton.serenity{
   background-color: #9243c8;
