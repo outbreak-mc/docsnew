@@ -17,7 +17,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const curators = ["faasutoraito", "X_TLS", "airbusman11", "miik_kee"];
+const curators = ["faasutoraito", "X_TLS", "airbusman11"];
 const randomCurator = curators[Math.floor(Math.random() * curators.length)];
 const curatorTelegram = ref(randomCurator)
 </script>
