@@ -53,5 +53,6 @@
     ],
     // "typescript.inlayHints.parameterNames.enabled": "literals",
     "typescript.inlayHints.variableTypes.enabled": true,
-    "i18n-ally.keystyle": "nested"
+    "i18n-ally.keystyle": "nested",
+    "vue.server.includeLanguages": ["vue", "markdown"]
 }

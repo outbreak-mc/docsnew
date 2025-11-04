@@ -9,9 +9,9 @@ hero:
   image:
     src: /feelingrad.webp
   actions:
-    - theme: brand
-      text: Ванильная QoL-сборка
-      link: /modpack
+    - theme: serenity
+      text: Пропуск на Serenity
+      link: /whitelist
     - theme: alt
       text: Правила проекта
       link: /rules
@@ -21,25 +21,35 @@ hero:
     - theme: alt
       text: Telegram-канал
       link: https://t.me/outbreak_mc
-    - theme: alt
-      text: Telegram-чат
-      link: https://t.me/outbreakmc
+    # - theme: alt
+    #   text: Донат
+    #   link: /donate
 
-#features:
-#  - title: Шапки
-#    details: Какие есть шапки и как их крафтить
-#    icon:
-#      src: /assets/site/hat-icon.png
-#  - title: Руководство по форматированию
-#    icon:
-#      src: https://docs.advntr.dev/_static/logo.png
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - title: Feature C
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: |-
+#         <span class="serenity-gradient mcfont"><i>Serenity</i></span>
+#     details: Наш уютный приватный сервер с доступом по анкетам. Нажмите здесь, чтобы узнать, как получить пропуск!
+#     link: /serenity-pass
+#     icon:
+#       src: /assets/site/hat-icon.png
+#   - title: Руководство по форматированию
+#     icon:
+#       src: https://docs.advntr.dev/_static/logo.png
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Донат и бесплатная поддержка проекта
+#     details: Узнать как 
+#     icon:
+#       src: /assets/site/hat-icon.png
 ---
 
+<!-- <script setup>
+    // import MyComp from './components/MyComp.vue'
+    import ProductCard from './components/store/ProductCard.vue'
+</script> -->
 
-## Встречаем сезон 4.0!
+<!-- <ProductCard :product='{id: 1, active: true, discounts: [], description: "это длинное описание товара", description_short: "описание покороче", displayname: "Привилегия Nomad", displayname_short: "Nomad", icon_url: "", name: "nomad", picture: "", price: {"1m": {name: ""}}}' /> -->
+
+## Встречаем Serenity!
 
 После стольких бед, через которые нам довелось пройти, мы были просто обязаны сделать следующий сезон достойно. Behold,
 
@@ -48,23 +58,24 @@ hero:
 <sub>_Старый адрес (.fun) больше не работает!_</sub>
 
 #### <img src="/assets/icons/serenity.png" style="display: inline; vertical-align:middle;" width=42/> Serenity - новый сервер с вечным миром
-У проекта OUTBREAK теперь есть ответвление, отдельный приватный сервер без сезонов, на котором никогда не будет вайпов. Мы назвали его <span class="mcfont serenity-gradient"><i>Serenity</i></span> ("умиротворённость"). Его мир довольно мал, всего 5000 во все стороны от спавна. Это сделано для того, чтобы призвать игроков жить ближе друг к другу и делиться ресурсами, а также на случай дальнейшего расширения с выходом новых версий.
+У проекта OUTBREAK теперь есть ответвление, отдельный приватный сервер без сезонов, на котором никогда не будет вайпов. Мы назвали его <span class="mcfont serenity-gradient"><i>Serenity</i></span> ("умиротворённость"). Его мир довольно мал, всего 10000 во все стороны от спавна. Это сделано для того, чтобы призвать игроков жить ближе друг к другу и делиться ресурсами, а также на случай дальнейшего расширения с выходом новых версий.
 
-Чтобы получить пропуск на Serenity, оставьте заявку в [канале #get-pass в Discord](https://discord.com/channels/767405329549885440/1400744932456792125)!
+Чтобы получить пропуск на Serenity, [оставьте заявку](/whitelist)!
 
-#### <img src="https://cdn.modrinth.com/data/Ds9FyUc7/62961afcf370dea60dc090f0c6e9ca6309048a68_96.webp" style="display: inline; vertical-align:middle;border-radius:5px;" width=32/> Кастомная генерация мира
+<!-- #### <img src="https://cdn.modrinth.com/data/Ds9FyUc7/62961afcf370dea60dc090f0c6e9ca6309048a68_96.webp" style="display: inline; vertical-align:middle;border-radius:5px;" width=32/> Кастомная генерация мира
 Мы смешали датапаки [Blooming Biosphere](https://modrinth.com/datapack/blooming-biosphere), [Continents](https://modrinth.com/datapack/continents), [Geophilic](https://modrinth.com/datapack/geophilic), [Wabi-Sabi](https://modrinth.com/datapack/wabi-sabi-structures) и [Structory](https://modrinth.com/datapack/structory), чтобы создать интересный мир для приятного совместного выживания. В этот раз [Arboria](https://modrinth.com/datapack/arboria) не используется в генерации, т.к. первый датапак в достаточной мере обновляет деревья, однако кастомные деревья вырастают из саженцев!
 
-Получился континент с летними биомами и множеством уютных местечек, достаточно просторный, чтобы места хватило всем, но при этом способствующий тому, чтобы игроки не расходились слишком далеко.
+Получился континент с летними биомами и множеством уютных местечек, достаточно просторный, чтобы места хватило всем, но при этом способствующий тому, чтобы игроки не расходились слишком далеко. -->
 
-<label class="spoiler-toggler">
+<!-- <label class="spoiler-toggler">
 <input type="checkbox">
 <span>Развернуть скриншот</span>
 <span>Свернуть скриншот</span>
 <img src="/assets/site/index/huge_2025-06-07_17.16.49.jpg"/>
-</label>
+</label> -->
 
-#### <img src="https://minecraft.wiki/images/thumb/Happy_Ghast_Blue_Harness_Goggles_Up_Leashed_JE1_BE1.gif/117px-Happy_Ghast_Blue_Harness_Goggles_Up_Leashed_JE1_BE1.gif?b724c" style="display: inline; vertical-align:middle;" width=48/> Ядро 1.21.7
+#### <img src="https://minecraft.wiki/images/thumb/Happy_Ghast_Blue_Harness_Goggles_Up_Leashed_JE1_BE1.gif/117px-Happy_Ghast_Blue_Harness_Goggles_Up_Leashed_JE1_BE1.gif?b724c" style="display: inline; vertical-align:middle;" width=48/> Ядро 1.21.8
+
 Сервер работает на новой версии - со счастливыми гастами, новой системой поводков, опавшими листьями и кустами светлячков!
 
 ### Прочие нововведения и улучшения
@@ -75,20 +86,14 @@ hero:
 - **<img src="/assets/icons/newsboy_cap_denim.png" style="display: inline; vertical-align:middle;" width=32/> Шапки снова здесь! Теперь - с крафтами!**  
     Обновили наш плагин на шапки. Убрана громоздкая механика камнереза, и теперь они изготавливаются из обычных предметов на верстаке.
 
-- **<img src="/assets/icons/cauldron_green.png" style="display: inline; vertical-align:middle;" width=32/> Цветные котлы как в Bedrock Edition**  
-    Нажмите красителем по котлу, чтобы окрасить воду в нём. Котёл с краской можно использовать, чтобы менять цвет предметов, которые имеют цветовые разновидности - кожаную броню, шалкеры, шерсть и т.д. Клик глиной по котлу убирает краску из воды.
+- **<img src="/assets/icons/cauldron_green.png" style="display: inline; vertical-align:middle;" width=32/> Множество интересных и полезых фишек от плагинов и датапаков**  
+    Воду в котлах можно красить и использовать для окраски предметов, как в Bedrock Edition; взяв предмет во вторую руку и лопату в основную, зажав Shift+ПКМ, можно закопать предмет в песок или гравий, создав подозрительный блок, который можно раскопать кисточкой; в таблички можно вставлять предметы как в рамки, а камнерез теперь умеет обрабатывать дерево и другие блоки, в том числе добавляя удобные способы раскрафтить ненужные блоки. 
 
 - **<img src="/assets/icons/minecart.webp" style="display: inline; vertical-align:middle;" width=32/> Быстрые вагонетки**  
     Включена новая физика вагонеток, а ещё они теперь могут развивать огромную скорость, так что строительство метро наконец стало актуально!
 
-- **<img src="/assets/icons/dripleaf.png" style="display: inline; vertical-align:middle;" width=32/> Экспериментальные жители и книги за алмазы**  
-    На сервере теперь включён датапак от Mojang на ребаланс жителей (разные торги в разных биомах), а помимо этого мы написали свой плагин, заменяющий цены в торгах книг на алмазы. Это должно продлить геймплей и хотя бы чуть-чуть улучшить экономику тем, что создавать трейд-холлы теперь сложнее.
-
-- **<img src="https://cdn.modrinth.com/data/aPJAlSHM/472ad35e1391d7534fdca05606918a309838cb7c_96.webp" style="display: inline; vertical-align:middle;" width=32/> Закапывание сокровищ**  
-    Возьмите лопату в основноую руку и любой предмет во вторую, зажмите Shift и удерживайте ПКМ по гравию или песку, чтобы создать подозрительный гравий или песок со спрятанным предметом. Будьте осторожны! Если сломать такой блок, закопанный предмет исчезнет!
-
-- **<img src="/assets/icons/gusenitsa.gif" style="display: inline; vertical-align:middle; border-radius:5px;" width=32/> Just Expressions**  
-    В серверный ресурспак включён [Just Expressions](https://modrinth.com/resourcepack/just-expressions), и все стандартные скины гусениц получили поддержку анимированных лиц.
+- **<img src="/assets/icons/dripleaf.png" style="display: inline; vertical-align:middle;" width=32/> Экспериментальные жители**  
+    На сервере теперь включён датапак от Mojang на ребаланс жителей (разные торги в разных биомах). Это должно продлить геймплей и хотя бы чуть-чуть улучшить экономику тем, что создавать трейд-холлы теперь сложнее.
 
 - **<img src="/assets/icons/waithoneysoontherewillbefeedbackandeverything.webp" style="display: inline; vertical-align:middle; border-radius:5px;" width=32/> Безопасность**  
     Были проведены исследования и приняты масштабные меры по защите сервера от кибер-атак.
