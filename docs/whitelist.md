@@ -17,10 +17,9 @@
 <script setup>
 import { ref } from 'vue'
 
-const curators = ["faasutoraito", "X_TLS", "airbusman11"];
-const randomCurator = curators[Math.floor(Math.random() * curators.length)];
-const curatorTelegram = ref(randomCurator)
-const curatorTgLink = ref("https://t.me/" + curatorTelegram.value)
+const curators = ["faasutoraito", "X_TLS", "airbusman11", "tanyashaaa_q"];
+const randomCuratorName = curators[Math.floor(Math.random() * curators.length)];
+const curatorTgLink = "https://t.me/" + randomCuratorName
 </script>
 
 # 🎋 Как попасть на Serenity
@@ -39,7 +38,7 @@ const curatorTgLink = ref("https://t.me/" + curatorTelegram.value)
 - В [Discord](https://discord.gg/fhgkRff) - создайте заявку через канал `#🪪get-pass`  
     <sub>_Предпочтительный способ. Ответим моментально._</sub>  
 
-- В Telegram куратору: <a v-bind:href="curatorTgLink">{{ curatorTelegram }}</a><br>
+- В Telegram куратору: <a v-bind:href="curatorTgLink">@{{ randomCuratorName }}</a><br>
     <sub>_Не предпочтительный способ, ответ может быть долгим._</sub>  
 
 ---
