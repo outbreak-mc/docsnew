@@ -1,4 +1,6 @@
 docs/.vitepress/cache
-docs/posts/witchhunt
+docs/posts/thelokesheresy
 node_modules
 docs/.vitepress/dist
+docs/components/store
+docs/features.md
