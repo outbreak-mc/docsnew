@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const curators = ["faasutoraito", "X_TLS", "tanyashaaa_q", "airbusman11"];
+const curators = ["faasutoraito", "X_TLS", "airbusman11"];
 
 const curatorName = ref("")
 const curatorTgLink = ref("")
